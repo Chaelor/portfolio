@@ -1,0 +1,25 @@
+
+.section-title{
+  color: #0aa9be;
+  font-size: 5rem;
+  padding: 3rem 0;
+  border-top: 5px solid #0aa9be;
+  border-bottom: 5px solid #0aa9be;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 3rem;
+}
+
+.section-bg-color{
+  background-color: #f0eeee;
+  border-radius: 10px;
+}
+
+.section-content{
+  font-size: 3rem;
+  padding: 0 2.5rem 2.5rem 2.5rem;
+}
+
+.entry{
+  margin-top: 2rem;
+}

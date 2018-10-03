@@ -1,0 +1,35 @@
+
+  /*****************
+  * Jumbotron
+  */
+  .jumbotron{
+    height: 70rem;
+    background-image: linear-gradient(to bottom right, #26c5da5e,#26c6da5e),url("../img/bg1.JPG");
+    background-size: cover;
+    position: relative;
+    background-position: top;
+    border-bottom: 5px solid white;
+  }
+  
+  .profile-picture{
+    width: 45rem;
+    height: 45rem;
+    border-radius: 300px;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: .5rem solid black;
+  }
+  
+  .jumbo-content{
+    position: absolute;
+    top:85%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Modern Antiqua', cursive;
+    font-size: 4rem;
+    line-height: 1.5;
+  }
+  

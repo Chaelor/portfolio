@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-size: 2rem;
+    background-image: url("/img/bg5.png");
+    background-repeat: repeat;
+  }
+  
+  html{
+    font-size: 62.5%;
+  }
+  
+  main {
+    flex: 1 0 auto;
+  }
+  
+  a {
+    cursor: pointer;
+  }
+  
+  h2{
+    margin:0;
+    padding:0;
+  }
+  /*****************
+  * Utility
+  */
+  .u-bgcolor-black{
+    background-color: black;
+  }
+  
+  .u-bgcolor-blue{
+    background-color: #26c6da;
+  }
+  
+  .u-text-size{
+    font-size: 1.5rem;
+  }
+  
+  .u-position-relative {
+    position: relative;
+  }
+  
+  .u-center-text {
+    text-align: center;
+  }
+  
+  .u-color-green{
+    color: rgb(0, 255, 0);
+    filter: brightness(1.25);
+  }
+  
+  .push{
+    margin-bottom: 10rem;
+  }
+  
+  .push-small{
+    margin-bottom: 2rem;
+  }
+  /*****************
+  * Navigation
+  */
+  nav{
+    border-bottom: 5px solid white;
+  }
+  
+
+    /*****************
+  * Contact
+  */
+  label{
+    font-size: 3rem;
+  }
+  
+  .form-group:not(:first-child){
+    margin-top: 2.5rem;
+  }
+  input:focus{
+    border-bottom:1px solid #26c6da !important;
+  }
+  
+  .form{
+    width: 85;
+    margin: 0 auto;
+  }
+  
+  .submit{
+    margin: 2rem 0;
+    background-color: #26c6da;
+  }
+  
+  .submit:hover{
+    background-color: #26c6da;;
+  }
+  
+  .form{
+    max-width: 75rem;
+  }

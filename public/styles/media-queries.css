@@ -1,0 +1,167 @@
+@media only screen and (max-width: 1250px) {
+    .rotate-description {
+      position: relative;
+      height:20rem; 
+      width:20rem;
+    }
+    .portfolio-image{
+      height: 20rem;
+      width:20rem;
+    }
+    .portfolio-content{
+      margin: 0 auto;
+      width: 600px;
+    }
+    .large-icon{
+      left:20%;
+    }
+    .back-content{
+      font-size: 2rem;
+    }
+    .back-header {
+      padding: 2rem 0;
+      font-size: 2.5rem;
+    }
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .large-icon{
+      left:22%;
+    }
+    .medium-icon{
+      left:30%;
+    }
+    form{
+      width: 80%
+    }
+  }
+  
+  @media only screen and (max-width: 975px) {
+    .jumbo-content{
+      font-size: 3.5rem;
+    }
+    form{
+      width: 80%
+    }
+  }
+  
+  @media only screen and (max-width: 860px) {
+    .jumbo-content{
+      font-size: 3rem;
+    }
+    .skills-content-description{
+      font-size: 2rem;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 750px) {
+    .rotate-description {
+      position: relative;
+      height:15rem; 
+      width:15rem;
+    }
+    .portfolio-image{
+      height: 15rem;
+      width:15rem;
+    }
+  
+    .portfolio-content{
+      margin: 0 auto;
+      width: 450px;
+    }
+    
+    .portfolio-h3{
+      padding:.5rem;
+      font-size: 1rem;
+    }
+    .jumbo-content{
+      font-size: 2.5rem;
+    }
+    .back-header{
+      font-size: 2rem;
+      height: 25%;
+    }
+    .back-content{
+      font-size: 1.5rem;
+      padding: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 660px) {
+    .jumbo-content{
+      font-size: 3rem;
+    }
+    .skills-content-description{
+      font-size: 2rem;
+    }
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .jumbo-content{
+      font-size: 2rem;
+      top: 78%;
+    }
+    .profile-picture{
+      width: 35rem;
+      height: 35rem;
+    }
+    .portfolio-image, .portfolio-content-image{
+      position: relative;
+      height:20rem;
+      width: 20rem;
+      background-color: #f0eeee;
+      border-radius: .5rem;
+    }
+    .portfolio-content{
+      width: 20rem;
+    }
+    .portfolio-content-row{
+      display:block;
+      width:0;
+    }
+    .portfolio-h3{
+      padding:.5rem;
+      font-size: 1rem;
+      height: 3.5rem;
+      font-size: 2rem;
+    }
+    .rotate-description {
+      position: relative;
+      height:20rem; 
+      width:20rem;
+    }
+    .portfolio-content-single{
+      width: 20rem;
+      margin: 0 auto 3rem auto;
+    }
+    .about-content-p:not(:last-child){
+      margin-bottom: 3rem;
+    }
+    .about-content-highlight-main{
+      margin-bottom: 3rem;
+    }
+    .back-header{
+      font-size: 2rem;
+    }
+    .back-content{
+      font-size: 1.8rem;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 380px) {
+    .jumbo-content{
+      font-size: 2.5rem;
+    }
+    .about-content{
+      font-size: 2.5rem;
+    }
+    .skills-content-description{
+      font-size: 2rem;
+    }
+    form{
+      width: 80%;
+    }
+  }
+  
